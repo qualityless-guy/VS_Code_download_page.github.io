@@ -1,0 +1,177 @@
+.navbar-expand-lg {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.nav-link {
+    color: grey;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.btn-outline-success {
+    background-color: rgba(36, 81, 245, 0.866);
+    color: whitesmoke;
+}
+
+.btn-outline-success:hover {
+    background-color: rgba(18, 68, 251, 0.866);
+    color: whitesmoke;
+}
+
+
+.container-fluid {
+    padding: 0px 100px 0px 117px;
+}
+
+.image_of_the_navbar {
+    margin: 0px 20px 0px 0px;
+}
+
+.navbar-brand {
+    padding: 10px 0px 0px 0px;
+}
+
+.darkmode {
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.update {
+    text-align: center;
+    padding: 20px;
+    font-size: smaller;
+}
+
+.vs_code {
+    text-align: center;
+    padding: 45px 0px 0px 0px;
+}
+
+.para_under_vscode {
+    font-size: 20px;
+}
+
+.OS {
+    margin: 0px 110px 0px 215px;
+    text-align: center;
+    display: flex;
+}
+
+.windows {
+    vertical-align: top;
+    display: inline-block;
+    padding: 25px;
+
+}
+
+.downloads {
+    border-radius: 5px;
+    background-color: rgb(11, 104, 254);
+    color: white;
+    padding: 21px;
+    margin: -21px 22px 11px 20px;
+}
+
+.versions {
+    background-color: rgb(25, 117, 255);
+    padding: 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.table {
+    border: none;
+    table-layout: none;
+}
+
+.linux {
+    padding: 60px 18px 10px 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.downloads_linux {
+    border-radius: 5px;
+    background-color: rgb(11, 104, 254);
+    color: white;
+    padding: 21px;
+    margin: -21px 22px 11px 20px;
+}
+
+.linux_image {
+    margin: 18px;
+}
+
+.mac_logo {
+    margin: 48px;
+}
+
+.privacy_statement {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.updates {
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.insiders {
+    padding: 60px;
+    text-align: center;
+}
+
+.vsdev {
+    text-align: center;
+    padding: 60px;
+}
+
+.prev_ver {
+    text-align: center;
+}
+
+.socials {
+    padding: 100px;
+}
+
+.Github {
+    margin: 20px;
+}
+
+.Microsoft {
+    float: right;
+}
+
+.footer {
+    display: flex;
+}
+
+.support {
+    padding: 0px 20px 0px 0px;
+}
+
+.Terms {
+    padding: 0px 0px 0px 20px;
+}
+
+.license {
+    padding: 0px 0px 0px 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: black
+}
