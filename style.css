@@ -1,46 +1,99 @@
-.navbar-expand-lg {
-    background-color: white;
-    position: fixed;
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     z-index: 9999;
+    background-color: white;
 }
 
-.nav-link {
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px 0px 150px;
+}
+
+.nav_items {
+    padding: 20px 10px 0px 10px;
+    margin: 20px 0px 0px 0px;
+    text-decoration: none;
     color: grey;
+    font-size: large;
 }
 
-.nav-link:hover {
+.nav_items:hover {
     color: black;
 }
 
-.btn-outline-success {
-    background-color: rgba(36, 81, 245, 0.866);
-    color: whitesmoke;
+.vscode {
+    display: flex;
 }
 
-.btn-outline-success:hover {
-    background-color: rgba(18, 68, 251, 0.866);
-    color: whitesmoke;
+.nav_image {
+    padding: 19px 10px 10px 10px;
 }
 
-
-.container-fluid {
-    padding: 0px 100px 0px 117px;
+.nav_name {
+    font-weight: 500;
+    font-size: large;
+    padding: 0px 20px 0px 0px;
 }
 
-.image_of_the_navbar {
-    margin: 0px 20px 0px 0px;
-}
-
-.navbar-brand {
-    padding: 10px 0px 0px 0px;
+.search_download {
+    display: flex;
+    margin: 0px 0px 0px 200px;
 }
 
 .darkmode {
+    margin: 5px 10px 0px 0px;
+}
+
+.search {
+    padding: 5px;
+    font-size: 90%;
+    margin: 0px 10px 0px 0px;
+    border: none;
+
+}
+
+input {
+    border: 0;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.search_image {
+    padding: 5px 0px 0px 0px;
+}
+
+.search_area {
+    display: flex;
+    border: 2px solid rgb(59, 134, 255);
+    border-radius: 5px;
     margin: 0px 20px 0px 0px;
-    cursor: pointer;
+}
+
+.Download_button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 3px;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    border: none;
+}
+
+.Download_button:hover {
+    padding: 5px 15px 5px 15px;
+    border-radius: 3px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    border: none;
 }
 
 .update {
@@ -51,10 +104,17 @@
 
 .vs_code {
     text-align: center;
-    padding: 45px 0px 0px 0px;
+    font-size: 40px;
+
+}
+
+.heading_main {
+    margin: 0px 0px -30px 0px;
+    font-weight: 500;
 }
 
 .para_under_vscode {
+    margin: -30 0px 0px 0px;
     font-size: 20px;
 }
 
@@ -68,14 +128,19 @@
     vertical-align: top;
     display: inline-block;
     padding: 25px;
+    font-size: large;
 
+}
+
+.windows_logo {
+    margin: 55px 0px 40px 0px;
 }
 
 .downloads {
     border-radius: 5px;
     background-color: rgb(11, 104, 254);
     color: white;
-    padding: 21px;
+    padding: 5px 20px 5px 20px;
     margin: -21px 22px 11px 20px;
 }
 
@@ -93,7 +158,7 @@
 }
 
 .linux {
-    padding: 60px 18px 10px 27px;
+    padding: 32px 18px 10px 27px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +170,7 @@
     border-radius: 5px;
     background-color: rgb(11, 104, 254);
     color: white;
-    padding: 21px;
+    padding: 5px 20px 5px 20px;
     margin: -21px 22px 11px 20px;
 }
 
@@ -114,7 +179,19 @@
 }
 
 .mac_logo {
-    margin: 48px;
+    margin: 49px 0px 49px 0px;
+}
+
+.mac_downloads {
+    padding: 0px 0px 0px 0px;
+}
+
+.downloads-mac {
+    border-radius: 5px;
+    background-color: rgb(11, 104, 254);
+    color: white;
+    padding: 1px 45px 0px 35px;
+    margin: -21px 54px 0px 70px;
 }
 
 .privacy_statement {
@@ -132,11 +209,14 @@
 .insiders {
     padding: 60px;
     text-align: center;
+    font-size: 30px;
+
 }
 
 .vsdev {
     text-align: center;
     padding: 60px;
+    font-size: 30px;
 }
 
 .prev_ver {
