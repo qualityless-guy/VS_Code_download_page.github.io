@@ -44,11 +44,29 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .downloads {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .updates {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .socials {
+        margin: 0px;
+        padding: 10px 10px 10px 10px;
     }
 
     .socials_links {
