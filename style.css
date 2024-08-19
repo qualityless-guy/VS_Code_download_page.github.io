@@ -227,6 +227,19 @@ input:focus {
     font-size: 30px;
 }
 
+.swastik {
+    font-size: 20px;
+}
+
+.insiders_build {
+    color: rgb(0, 119, 255);
+    font-size: 20px;
+}
+
+.vscodedev {
+    color: rgb(0, 119, 255);
+}
+
 .prev_ver {
     text-align: center;
 }
